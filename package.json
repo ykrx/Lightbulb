@@ -1,33 +1,44 @@
 {
   "name": "lightbulb",
-  "displayName": "Lightbulb Theme",
-  "description": "A minimal dark theme that aesthetically puts into focus exactly what you need to focus on.",
+  "displayName": "Lightbulb",
+  "description": "A minimal dark theme that intelligently illuminates the important stuff.",
   "publisher": "ykray",
+  "author": {
+    "name": "Yulian Kraynyak"
+  },
   "repository": {
     "type": "git",
     "url:": "https://github.com/ykray/Lightbulb"
   },
   "bugs": {
-    "url:": "https://github.com/ykray/Lightbulb",
+    "url:": "https://github.com/ykray/Lightbulb/issues",
     "email": "yulian@yulian.codes"
   },
   "homepage": "https://github.com/ykray/Lightbulb",
-  "icon": "icons/icon.png",
+  "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#ffcf6f",
+    "color": "#121722",
     "theme": "dark"
   },
-  "version": "0.0.1",
+  "version": "0.0.22",
   "engines": {
     "vscode": "^1.72.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "lightbulb",
+    "lightbulb theme",
+    "dark minimal theme",
+    "productivity theme"
+  ],
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Lightbulb Dark Theme",
+        "label": "Lightbulb",
         "uiTheme": "vs-dark",
         "path": "./themes/Lightbulb-color-theme.json"
       }

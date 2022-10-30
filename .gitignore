@@ -2,3 +2,5 @@ node_modules
 *.vsix
 
 *.psd
+
+.DS_Store
