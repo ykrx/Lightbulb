@@ -1151,6 +1151,12 @@
       }
     },
     {
+      "scope": ["constant.other.caps"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "scope": "keyword.other.dotenv",
       "settings": {
         "foreground": "#FF000005"
