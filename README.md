@@ -40,7 +40,20 @@ Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=i
 "customizeUI.titleBar": "inline"
 ```
 
-### 4. Style TODOs
+### 4. Style indent-rainbow
+
+Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
+
+```json
+"indentRainbow.colors": [
+  "rgba(141, 151, 170, 0.0)",
+  "rgba(141, 151, 170, 0.035)"
+],
+"indentRainbow.errorColor": "#f98d7c29",
+"indentRainbow.indicatorStyle": "classic",
+```
+
+### 5. Style TODOs
 
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
@@ -69,7 +82,9 @@ Lightbulb also styles the following extensions (if installed):
 
 ## Missing colors?
 
-Can't get em all. Feel free to suggest styling suggestions by [creating an issue](https://github.com/ykray/Lightbulb/issues).
+Can't get em all, report missing styles by [creating an issue](https://github.com/ykray/Lightbulb/issues).
+
+Feel free to suggest styling changes by [submitting an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas).
 
 ---
 
