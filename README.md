@@ -8,7 +8,7 @@
 
 [Install from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb)
 
-## 💡 Concept
+## Concept
 
 Lightbulb is a minimal dark theme for Visual Studio Code that intelligently illuminates items of interest, while elegantly fading away unnecessary distractions.
 
@@ -18,23 +18,31 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 Lightbulb is good-to-go upon install, but here's some recommended stuff to do to get the most out of it.
 
-### 1. Recommended font: `Hack Nerd Font Mono`
+### 1. Recommended font:
+
+```json
+"editor.fontFamily": "Hack Nerd Font Mono"
+```
 
 ### 2. Resize sidebar:
 
-1. Set `"window.zoomLevel": 0.45`
-2. Set `"editor.fontSize": 13`
-3. Set `"workbench.editor.wrapTabs": false`
+```json
+"window.zoomLevel": 0.45,
+"editor.fontSize": 13,
+"workbench.editor.wrapTabs": false
+```
 
 ### 3. Hide the title bar
 
-1. Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension
-2. Set `"customizeUI.titleBar": "inline"`
+Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
+
+```json
+"customizeUI.titleBar": "inline"
+```
 
 ### 4. Style TODOs
 
-1. Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension
-2. Set
+Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
 ```jsonc
 "todohighlight.keywords": [
@@ -52,14 +60,14 @@ Lightbulb is good-to-go upon install, but here's some recommended stuff to do to
 ]}
 ```
 
-## ✨ Extras
+## Extras
 
 Lightbulb also styles the following extensions (if installed):
 
 - [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-## 🤨 Missing colors?
+## Missing colors?
 
 Can't get em all. Feel free to suggest styling suggestions by [creating an issue](https://github.com/ykray/Lightbulb/issues).
 
