@@ -1,7 +1,7 @@
 # 💡 Lightbulb
 
 <a href="https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb">
-    <img src="assets/showcase.png" width="1600px"/>
+    <img src="assets/showcase-2.png" width="1600px"/>
 </a>
 
 <br/>
