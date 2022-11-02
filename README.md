@@ -22,9 +22,9 @@ Lightbulb is good-to-go upon install, but here's some recommended stuff to do to
 
 ### 2. Resize sidebar:
 
-- Set `"window.zoomLevel": 0.45`
-- Set `"editor.fontSize": 13`
-- Set `"workbench.editor.wrapTabs": false`
+1. Set `"window.zoomLevel": 0.45`
+2. Set `"editor.fontSize": 13`
+3. Set `"workbench.editor.wrapTabs": false`
 
 ### 3. Hide the title bar
 
