@@ -16,7 +16,7 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 ## Setup (optional)
 
-Lightbulb is good-to-go upon install, but here's some recommended stuff to do to get the most out of it.
+Lightbulb is good-to-go upon install, but here's some recommended customization to get the most out of it.
 
 ### 1. Recommended font:
 
@@ -24,23 +24,19 @@ Lightbulb is good-to-go upon install, but here's some recommended stuff to do to
 "editor.fontFamily": "Hack Nerd Font Mono"
 ```
 
-### 2. Resize sidebar:
-
-```json
-"window.zoomLevel": 0.45,
-"editor.fontSize": 13,
-"workbench.editor.wrapTabs": false
-```
-
-### 3. Hide the title bar
+### 2. Hide the title bar and resize sidebar:
 
 Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
 
 ```json
-"customizeUI.titleBar": "inline"
+"customizeUI.titleBar": "inline",
+"customizeUI.listRowHeight": 23,
+"editor.fontSize": 13,
+"window.zoomLevel": 0.45,
+"workbench.editor.wrapTabs": false
 ```
 
-### 4. Style indent-rainbow
+### 3. Style indent-rainbow
 
 Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
 
@@ -50,7 +46,19 @@ Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName
   "rgba(141, 151, 170, 0.035)"
 ],
 "indentRainbow.errorColor": "#f98d7c29",
-"indentRainbow.indicatorStyle": "classic",
+"indentRainbow.indicatorStyle": "classic"
+```
+
+### 4. Style Subtle Match Brackets
+
+Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) extensions and set:
+
+```json
+"subtleBrackets.style": {
+  "borderColor": "#ffcf6f",
+  "borderStyle": "none none solid none",
+  "borderWidth": "1px"
+},
 ```
 
 ### 5. Style TODOs
