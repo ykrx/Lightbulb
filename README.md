@@ -60,8 +60,8 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
 ```jsonc
 "todohighlight.keywords": [
     {
-      "backgroundColor": "#ffcf6f",
-      "overviewRulerColor": "#ffcf6f",
+      "backgroundColor": "#f3dd99",
+      "overviewRulerColor": "#f3dd99",
       "text": "TODO"
     },
     {
