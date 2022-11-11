@@ -14,26 +14,26 @@ Lightbulb is a minimal dark theme for Visual Studio Code that intelligently illu
 
 This is a comprehensive theme designed over many years of experimentation with my own VS Code setup, with the goal of a design that increases productivity but is also nice to just _look_ at. **Bright actions** on **subtle surfaces**, lit up by **intuitive colors**.
 
-## Setup (optional)
+## Recommended Setup
 
 Lightbulb is good-to-go upon install, but here's some recommended customization to get the most out of it.
 
-### 1. Recommended font:
+### 1. Update VSCode settings:
 
-```json
-"editor.fontFamily": "Hack Nerd Font Mono"
+```jsonc
+"editor.fontFamily": "Hack Nerd Font Mono", // https://github.com/ryanoasis/nerd-fonts
+"editor.fontSize": 13
+"window.zoomLevel": 0.45,
+"workbench.editor.wrapTabs": false
 ```
 
-### 2. Hide the title bar and resize sidebar:
+### 2. Hide the title bar:
 
 Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
 
 ```json
 "customizeUI.titleBar": "inline",
-"customizeUI.listRowHeight": 23,
-"editor.fontSize": 13,
-"window.zoomLevel": 0.45,
-"workbench.editor.wrapTabs": false
+"customizeUI.listRowHeight": 23
 ```
 
 ### 3. Style indent-rainbow
@@ -67,17 +67,19 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
 
 ```jsonc
 "todohighlight.keywords": [
-    {
-      "backgroundColor": "#f3dd99",
-      "overviewRulerColor": "#f3dd99",
-      "text": "TODO"
-    },
-    {
-      "backgroundColor": "#f98d7c",
-      "overviewRulerColor": "#f98d7c",
-      "text": "ERROR"
-    }
-    //  ...
+  {
+    "backgroundColor": "#f3dd9910",
+    "color": "#f3dd99",
+    "overviewRulerColor": "#f3dd99",
+    "text": "TODO"
+  },
+  {
+    "backgroundColor": "#f98d7c10",
+    "color": "#f98d7c",
+    "overviewRulerColor": "#f98d7c",
+    "text": "ERROR"
+  },
+  //  ...
 ]}
 ```
 
