@@ -1,7 +1,7 @@
 # 💡 Lightbulb
 
 <a href="https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb">
-    <img src="assets/showcase.png" width="1600px"/>
+    <img src="assets/showcase-2.png" width="1600px"/>
 </a>
 
 <br/>
@@ -65,22 +65,26 @@ Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?i
 
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
-```jsonc
+```json
 "todohighlight.keywords": [
   {
-    "backgroundColor": "#f3dd9910",
-    "color": "#f3dd99",
-    "overviewRulerColor": "#f3dd99",
+    "backgroundColor": "#eff5ff",
+    "overviewRulerColor": "#eff5ff",
+    "text": "\r^[A-Z]+(?:_[A-Z]+)*$"
+  },
+  {
+    "backgroundColor": "#CCCAC2",
+    "color": "#121722",
+    "overviewRulerColor": "#CCCAC2",
     "text": "TODO"
   },
   {
-    "backgroundColor": "#f98d7c10",
-    "color": "#f98d7c",
-    "overviewRulerColor": "#f98d7c",
-    "text": "ERROR"
-  },
-  //  ...
-]}
+    "backgroundColor": "#ffcf6f",
+    "color": "#121722",
+    "overviewRulerColor": "#ffcf6f",
+    "text": "IDEA"
+  }
+],
 ```
 
 ## Extras
