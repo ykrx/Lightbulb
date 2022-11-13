@@ -96,7 +96,7 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
 
 ## Extras
 
-Lightbulb also styles the following extensions (if installed):
+Lightbulb also automatically styles the following extensions (if installed):
 
 - [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
