@@ -1535,6 +1535,7 @@
     {
       "scope": ["constant.other.caps"],
       "settings": {
+        "foreground": "#D4D2C8",
         "fontStyle": "bold"
       }
     },
