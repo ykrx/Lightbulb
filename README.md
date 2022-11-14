@@ -96,6 +96,8 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
 
 ## Extras
 
+Your new favorite theme is [now on Firefox!](https://addons.mozilla.org/en-US/firefox/addon/lightbulb-theme/)
+
 Lightbulb also automatically styles the following extensions (if installed):
 
 - [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
