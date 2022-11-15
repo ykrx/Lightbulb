@@ -1,8 +1,16 @@
 # Change Log
 
+## [1.1.3]
+
+- Terminal styling
+
+## [1.1.2]
+
+- Constants token styling
+
 ## [1.1.0]
 
-Moving to `major.minor` versioning.
+Moving to `major.minor` versioning
 
 ## [1.0.31]
 
@@ -14,7 +22,7 @@ Moving to `major.minor` versioning.
 
 ## [1.0.29]
 
-- Polished up some styling and updated README.
+- Polished up some styling and updated README
 
 ## [1.0.28]
 
