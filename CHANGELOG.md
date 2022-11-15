@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.2.0]
+
+Update styling:
+
+- Peek View
+- Breadcrumbs
+- Symbols
+- Editor Hover Widget
+
 ## [1.1.3]
 
 - Terminal styling
