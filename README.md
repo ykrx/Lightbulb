@@ -36,9 +36,10 @@ Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=i
 "customizeUI.font.monospace": "Hack Nerd Font Mono",
 "customizeUI.listRowHeight": 23,
 "customizeUI.stylesheet": {
+  ".active.tab-border-top": "border-top: 1px solid #ffcf6f !important;",
   ".gettingStartedContainer h1": "color: #cacfe0; font-size: 1.8rem !important; text-transform: lowercase;",
   ".monaco-workbench .part.editor > .content .gettingStartedContainer .description": "font-size: 1rem !important; text-transform: lowercase;",
-  ".monaco-workbench .part.editor>.content .gettingStartedContainer h2": "font-size: 1rem !important; text-transform: lowercase;"
+  ".monaco-workbench .part.editor > .content .gettingStartedContainer h2": "font-size: 1rem !important; text-transform: lowercase;",
 },
 "customizeUI.titleBar": "inline"
 ```

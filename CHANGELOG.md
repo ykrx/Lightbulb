@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.3.0]
+
+Update styling:
+
+- Notifications
+- Active Tab: thickened top border (via CustomizeUI - follow instructions [here](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb))
+- Many other subtle improvements
+
 ## [1.2.0]
 
 Update styling:
@@ -63,7 +71,7 @@ Styling updates:
 
 ## [1.0.24]
 
-💡 New recommended [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) and [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) settings dropped! [Update settings](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb) by applying the changes on Lightbulb's [instructions](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets).
+💡 New recommended [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) and [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) settings dropped! [Update settings](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb) by applying the changes on Lightbulb's [instructions](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb).
 
 ## [1.0.22]
 
