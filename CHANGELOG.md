@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.3.2]
+
+Update styling:
+
+- Find Match
+
 ## [1.3.0]
 
 Update styling:
