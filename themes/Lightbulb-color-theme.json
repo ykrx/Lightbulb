@@ -146,6 +146,8 @@
     "gitDecoration.modifiedResourceForeground": "#ffcf6f",
     "gitDecoration.submoduleResourceForeground": "#dfbfffb3",
     "gitDecoration.untrackedResourceForeground": "#dfbfff",
+    "gitlens.graphLane1Color": "#7886a0",
+    "gitlens.trailingLineForegroundColor": "#48546a",
     "icon.foreground": "#525f78",
     "input.background": "#e0dcc011",
     "input.border": "#1d233100",
@@ -236,7 +238,7 @@
     "peekViewTitleLabel.foreground": "#ffcf6f",
     "pickerGroup.border": "#171b24",
     "pickerGroup.foreground": "#707a8c80",
-    "progressBar.background": "#364058",
+    "progressBar.background": "#ffcf6f",
     "quickInput.background": "#121722",
     "quickInput.foreground": "#6d7f9d",
     "quickInputList.focusIconForeground": "#ffcf6f",
@@ -468,6 +470,43 @@
     //"gitDecoration.renamedResourceForeground": "#73c991",
     //"gitDecoration.stageDeletedResourceForeground": "#c74e39",
     //"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+    //"gitlens.closedAutolinkedIssueIconColor": "#a371f7",
+    //"gitlens.closedPullRequestIconColor": "#f85149",
+    //"gitlens.decorations.addedForegroundColor": "#ffcf6f",
+    //"gitlens.decorations.branchAheadForegroundColor": "#35b15e",
+    //"gitlens.decorations.branchBehindForegroundColor": "#b15e35",
+    //"gitlens.decorations.branchDivergedForegroundColor": "#d8af1b",
+    //"gitlens.decorations.branchMissingUpstreamForegroundColor": "#c74e39",
+    //"gitlens.decorations.branchUnpublishedForegroundColor": "#35b15e",
+    //"gitlens.decorations.branchUpToDateForegroundColor": "#6a7893",
+    //"gitlens.decorations.copiedForegroundColor": "#73c991",
+    //"gitlens.decorations.deletedForegroundColor": "#f27983b3",
+    //"gitlens.decorations.ignoredForegroundColor": "#455675",
+    //"gitlens.decorations.modifiedForegroundColor": "#ffcf6f",
+    //"gitlens.decorations.renamedForegroundColor": "#73c991",
+    //"gitlens.decorations.untrackedForegroundColor": "#dfbfff",
+    //"gitlens.decorations.worktreeView.hasUncommittedChangesForegroundColor": "#e2c08d",
+    //"gitlens.graphLane10Color": "#2ece9d",
+    //"gitlens.graphLane2Color": "#0669f7",
+    //"gitlens.graphLane3Color": "#8e00c2",
+    //"gitlens.graphLane4Color": "#c517b6",
+    //"gitlens.graphLane5Color": "#d90171",
+    //"gitlens.graphLane6Color": "#cd0101",
+    //"gitlens.graphLane7Color": "#f25d2e",
+    //"gitlens.graphLane8Color": "#f2ca33",
+    //"gitlens.graphLane9Color": "#7bd938",
+    //"gitlens.gutterBackgroundColor": "#ffffff13",
+    //"gitlens.gutterForegroundColor": "#bebebe",
+    //"gitlens.gutterUncommittedForegroundColor": "#00bcf299",
+    //"gitlens.lineHighlightBackgroundColor": "#00bcf233",
+    //"gitlens.lineHighlightOverviewRulerColor": "#00bcf299",
+    //"gitlens.mergedPullRequestIconColor": "#a371f7",
+    //"gitlens.openAutolinkedIssueIconColor": "#3fb950",
+    //"gitlens.openPullRequestIconColor": "#3fb950",
+    //"gitlens.trailingLineBackgroundColor": "#00000000",
+    //"gitlens.unpublishedChangesIconColor": "#35b15e",
+    //"gitlens.unpublishedCommitIconColor": "#35b15e",
+    //"gitlens.unpulledChangesIconColor": "#b15e35",
     //"inlineTitleBar.background": "#121722",
     //"inputOption.hoverBackground": "#5a5d5e80",
     //"interactive.activeCodeBorder": "#2f384d",
@@ -1725,6 +1764,113 @@
       "scope": "keyword.other.dotenv",
       "settings": {
         "foreground": "#FF000005"
+      }
+    },
+    {
+      "scope": ["invalid"],
+      "settings": {
+        "foreground": "#6D798C"
+      }
+    },
+    {
+      "scope": ["punctuation.terminator", "punctuation.separator"],
+      "settings": {
+        "foreground": "#7888A5"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control",
+        "keyword.operator.arithmetic",
+        "keyword.operator",
+        "keyword.operator.assignment",
+        "keyword.operator.logical",
+        "keyword.operator.new",
+        "keyword.other"
+      ],
+      "settings": {}
+    },
+    {
+      "scope": [
+        "comment",
+        "comment.block.documentation",
+        "comment.block.documentation.js",
+        "comment.line.double-slash.js",
+        "variable.other.jsdoc",
+        "punctuation.definition.comment",
+        "punctuation.definition.comment.begin.documentation",
+        "punctuation.definition.comment.end.documentation"
+      ],
+      "settings": {
+        "foreground": "#707F9A",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["storage.type.class.jsdoc"],
+      "settings": {
+        "foreground": "#FFA75F",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["markup.underline.link"],
+      "settings": {
+        "foreground": "#DFBFFF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#707F9A"
+      }
+    },
+    {
+      "scope": ["markup.italic", "markup.bold"],
+      "settings": {
+        "foreground": "#FFAD66"
+      }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#707F9A"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#D4D2C8"
+      }
+    },
+    {
+      "scope": ["constant.other.caps"],
+      "settings": {
+        "foreground": "#D4D2C8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "keyword.other.dotenv",
+      "settings": {
+        "foreground": "#FF000005"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "meta.tag.sgml"],
+      "settings": {
+        "foreground": "#73DCFF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag.end",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#73DCFF70"
       }
     },
     {
