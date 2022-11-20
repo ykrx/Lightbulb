@@ -18,7 +18,9 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 Lightbulb is good to go upon install, but here's some recommended customizations to see its full potential.
 
-### 1. Update VSCode settings:
+### 1. [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) look great with Lightbulb!
+
+### 2. Update VSCode settings:
 
 ```jsonc
 "editor.fontFamily": "Hack Nerd Font Mono", // https://github.com/ryanoasis/nerd-fonts
@@ -27,7 +29,7 @@ Lightbulb is good to go upon install, but here's some recommended customizations
 "workbench.editor.wrapTabs": false
 ```
 
-### 2. Hide the title bar:
+### 3. Hide the title bar:
 
 Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
 
@@ -44,7 +46,7 @@ Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=i
 "customizeUI.titleBar": "inline"
 ```
 
-### 3. Style indent-rainbow
+### 4. Style indent-rainbow
 
 Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
 
@@ -57,7 +59,7 @@ Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName
 "indentRainbow.indicatorStyle": "classic"
 ```
 
-### 4. Style Subtle Match Brackets
+### 5. Style Subtle Match Brackets
 
 Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) extensions and set:
 
@@ -69,7 +71,7 @@ Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?i
 },
 ```
 
-### 5. Style TODOs
+### 6. Style TODOs
 
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
