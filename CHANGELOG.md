@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.4.0]
+
+Update styling:
+
+- Word Highlight (and in overview ruler)
+
 ## [1.3.2]
 
 Update styling:
