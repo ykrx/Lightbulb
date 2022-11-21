@@ -83,16 +83,10 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
     "text": "\r^[A-Z]+(?:_[A-Z]+)*$"
   },
   {
-    "backgroundColor": "#CCCAC2",
-    "color": "#121722",
-    "overviewRulerColor": "#CCCAC2",
-    "text": "TODO"
-  },
-  {
     "backgroundColor": "#ffcf6f",
     "color": "#121722",
     "overviewRulerColor": "#ffcf6f",
-    "text": "IDEA"
+    "text": "TODO"
   }
 ],
 ```
