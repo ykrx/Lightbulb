@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.5.0]
+
+Update styling:
+
+- Terminal groups
+- Scrollbar
+
+(among others)
+
 ## [1.4.0]
 
 Update styling:
