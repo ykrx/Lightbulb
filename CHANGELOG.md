@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.6.0]
+
+- [NEW] Drag & drop backgrounds (for panels, list items, and editors)
+
 ## [1.5.0]
 
 Update styling:
