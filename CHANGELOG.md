@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.7.0]
+
+- Terminal text selection
+
 ## [1.6.0]
 
 - [NEW] Drag & drop backgrounds (for panels, list items, and editors)
