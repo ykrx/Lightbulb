@@ -76,12 +76,15 @@ Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?i
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
 ```json
+"todohighlight.defaultStyle": {
+  "backgroundColor": "transparent",
+  "color": "#121722",
+  "fontStyle": "",
+  "fontWeight": "bold",
+  "isWholeLine": true,
+  "overviewRulerColor": "#ffcf6f"
+},
 "todohighlight.keywords": [
-  {
-    "backgroundColor": "#eff5ff",
-    "overviewRulerColor": "#eff5ff",
-    "text": "\r^[A-Z]+(?:_[A-Z]+)*$"
-  },
   {
     "backgroundColor": "#ffcf6f",
     "color": "#121722",
