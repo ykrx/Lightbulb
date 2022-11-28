@@ -23,7 +23,7 @@ Lightbulb is good to go upon install, but here's some recommended customizations
 ### 2. Update VSCode settings:
 
 ```jsonc
-"editor.fontFamily": "Hack Nerd Font Mono", // https://github.com/ryanoasis/nerd-fonts
+"editor.fontFamily": "JetBrains Mono", // https://www.jetbrains.com/lp/mono/
 "editor.fontSize": 13
 "window.zoomLevel": 0.45,
 "workbench.editor.wrapTabs": false
@@ -35,7 +35,7 @@ Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=i
 
 ```json
 "customizeUI.activityBar": "regular",
-"customizeUI.font.monospace": "Hack Nerd Font Mono",
+"customizeUI.font.monospace": "JetBrains Mono",
 "customizeUI.listRowHeight": 23,
 "customizeUI.stylesheet": {
   ".active.tab-border-top": "border-top: 1px solid #ffcf6f !important;",
