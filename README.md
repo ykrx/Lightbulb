@@ -50,7 +50,7 @@ Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=i
 "customizeUI.titleBar": "inline"
 ```
 
-### 4. Style indent-rainbow
+### 💡 Style indent-rainbow
 
 Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
 
@@ -63,7 +63,7 @@ Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName
 "indentRainbow.indicatorStyle": "classic"
 ```
 
-### 5. Style Subtle Match Brackets
+### 💡 Style Subtle Match Brackets
 
 Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) extensions and set:
 
@@ -75,7 +75,7 @@ Install the [Subtle Match Brackets](https://marketplace.visualstudio.com/items?i
 },
 ```
 
-### 6. Style TODOs
+### 💡 Style TODOs
 
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
