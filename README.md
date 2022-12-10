@@ -18,9 +18,9 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 Lightbulb is good to go upon install, but here's some recommended customizations to see its full potential.
 
-### 1. [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) look great with Lightbulb!
+### 💡 [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) look great with Lightbulb!
 
-### 2. Update VSCode settings:
+### 💡 Update VSCode settings:
 
 ```jsonc
 "editor.fontFamily": "JetBrains Mono", // https://www.jetbrains.com/lp/mono/
@@ -29,7 +29,11 @@ Lightbulb is good to go upon install, but here's some recommended customizations
 "workbench.editor.wrapTabs": false
 ```
 
-### 3. Hide the title bar:
+### 💡 Hide the title bar:
+
+> ⚠️ **WARNING:** The latest release of VS Code [unfortunately breaks](https://github.com/iocave/monkey-patch/issues/56) the _Customize UI_ & _Monkeypatch_ extensions (hopefully temporarily), **causing VS Code to not open at all**. I'll leave these instructions in here for now, but skip this section while this warning is up.
+
+> Use `"window.titleBarStyle": "custom"` as an alternative for now.
 
 Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
 
