@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.0.0]
+
+- command center improvements
+
 ## [1.9.0]
 
 - added git decoration styles
