@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.1.1]
+
+- removed CustomizeUI recommendations
+
 ## [2.1.0]
 
 - command center improvements
@@ -7,11 +11,6 @@
 ## [1.9.0]
 
 - added git decoration styles
-- added CustomizeUI warning to README (see below)
-
-> The latest release of VS Code [unfortunately breaks](https://github.com/iocave/monkey-patch/issues/56) the _Customize UI_ & _Monkeypatch_ extensions (hopefully temporarily), **causing VS Code to not open at all**.
-
-> Use `"window.titleBarStyle": "custom"` as an alternative for now.
 
 ## [1.7.0]
 

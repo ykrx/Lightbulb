@@ -29,27 +29,6 @@ Lightbulb is good to go upon install, but here's some recommended customizations
 "workbench.editor.wrapTabs": false
 ```
 
-### 💡 Hide the title bar:
-
-> ⚠️ **WARNING:** The latest release of VS Code [unfortunately breaks](https://github.com/iocave/monkey-patch/issues/56) the _Customize UI_ & _Monkeypatch_ extensions (hopefully temporarily), **causing VS Code to not open at all**. I'll leave these instructions in here for now, but skip this section while this warning is up.
-
-> Use `"window.titleBarStyle": "custom"` as an alternative for now.
-
-Install the [Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui) extension and set:
-
-```json
-"customizeUI.activityBar": "regular",
-"customizeUI.font.monospace": "JetBrains Mono",
-"customizeUI.listRowHeight": 23,
-"customizeUI.stylesheet": {
-  ".active.tab-border-top": "border-top: 1px solid #ffcf6f !important;",
-  ".gettingStartedContainer h1": "color: #cacfe0; font-size: 1.8rem !important; text-transform: lowercase;",
-  ".monaco-workbench .part.editor > .content .gettingStartedContainer .description": "font-size: 1rem !important; text-transform: lowercase;",
-  ".monaco-workbench .part.editor > .content .gettingStartedContainer h2": "font-size: 1rem !important; text-transform: lowercase;",
-},
-"customizeUI.titleBar": "inline"
-```
-
 ### 💡 Style indent-rainbow
 
 Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
