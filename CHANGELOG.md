@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.2.0]
+
+- color improvements and styling touchups
+
 ## [2.1.1]
 
 - removed CustomizeUI recommendations
