@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.3.0]
+
+- improved bracket matching
+
 ## [2.2.0]
 
 - color improvements and styling touchups
