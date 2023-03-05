@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.4.0]
+
+- improved focus styling for buttons & views
+
 ## [2.3.0]
 
 - improved bracket matching
