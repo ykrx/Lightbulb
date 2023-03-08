@@ -1,5 +1,9 @@
 # Change Log
 
+## [2.6.0]
+
+- improved TextMate styling for constants
+
 ## [2.4.0]
 
 - improved focus styling for buttons & views

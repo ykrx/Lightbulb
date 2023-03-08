@@ -14,7 +14,7 @@ Lightbulb is a minimal dark theme for Visual Studio Code that intelligently illu
 
 This is a comprehensive theme designed over many years of experimentation with my own VS Code setup, with the goal of a design that increases productivity but is also nice to just _look_ at. **Bright actions** on **subtle surfaces**, lit up by **intuitive colors**.
 
-## Recommended Setup
+## Setup (recommended)
 
 Lightbulb is good to go upon install, but here's some recommended customizations to see its full potential.
 
