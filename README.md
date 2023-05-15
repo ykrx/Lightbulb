@@ -47,21 +47,41 @@ Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName
 Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
 
 ```json
+"todohighlight.defaultStyle": {
+  "backgroundColor": "transparent",
+  "color": "#121722",
+  "fontStyle": "",
+  "fontWeight": "normal",
+  "isWholeLine": true,
+  "overviewRulerColor": "#ffcf6f"
+},
 "todohighlight.keywords": [
   {
     "backgroundColor": "#ffcf6f",
-    "overviewRulerColor": "#ffcf6f",
-    "text": "TODO",
-    "isWholeLine": true
+    "fontWeight": "bold",
+    "text": "TODO"
   },
   {
-    "backgroundColor": "#ffcf6f",
-    "color": "#121722",
+    "backgroundColor": "#ffcf6f16",
+    "color": "#ffcf6f",
     "overviewRulerColor": "#ffcf6f",
     "text": "FIX"
   }
 ],
 ```
+
+### Coverage Gutters
+
+Install the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension and set:
+
+```json
+"coverage-gutters.partialHighlightDark": "#ffeca020",
+"coverage-gutters.highlightdark": "#42f1b420",
+"coverage-gutters.noHighlightDark": "#f98d7c29",
+```
+
+> **Note:**
+> To change the gutter colors, edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-2.10.4/app_images`)
 
 ## Extras
 
