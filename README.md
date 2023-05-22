@@ -91,6 +91,7 @@ Install the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemNa
 
   - [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
   - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [Inline Parameters for VSCode](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
 
 ## Missing colors?
 
