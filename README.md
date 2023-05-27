@@ -61,12 +61,6 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
     "fontWeight": "bold",
     "text": "TODO"
   },
-  {
-    "backgroundColor": "#ffcf6f16",
-    "color": "#ffcf6f",
-    "overviewRulerColor": "#ffcf6f",
-    "text": "FIX"
-  }
 ],
 ```
 
