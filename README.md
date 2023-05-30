@@ -6,32 +6,66 @@
 
 <br/>
 
-[Install from the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb)
-
 ## Philosophy
+
+**Bright actions** on **subtle surfaces**, lit up by an **intuitive palette** of colors.
 
 Lightbulb is a minimal dark theme for Visual Studio Code that intelligently illuminates items of interest, while elegantly fading away unnecessary distractions.
 
-This is a comprehensive theme designed over many years of experimentation with my own VS Code setup, with the goal of a design that increases productivity but is also nice to just _look_ at. **Bright actions** on **subtle surfaces**, lit up by an **intuitive palette** of colors.
+This is a comprehensive theme designed over many years of experimentation with my own VS Code setup, with the goal of a design that increases productivity but is also nice to just stare at.
+
+[Get Lightbulb](https://marketplace.visualstudio.com/items?itemName=ykray.lightbulb)
+
+---
 
 ## Setup (recommended)
 
-Lightbulb is good to go upon install, but here are some recommended customizations to make it _really_ pop.
+Lightbulb is good to go upon install, but here are some recommended customizations (from your end) to make it _really_ pop.
 
-### [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) pair nicely with Lightbulb
+### Install [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) (pair nicely with Lightbulb)
 
-### Update VSCode settings:
+### Install [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and set:
 
 ```jsonc
-"editor.fontFamily": "JetBrains Mono", // https://www.jetbrains.com/lp/mono/
+"editor.fontFamily": "JetBrains Mono",
 "editor.fontSize": 13
-"window.zoomLevel": 0.45,
-"workbench.editor.wrapTabs": false
 ```
 
-### indent-rainbow
+### Install [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and set:
 
-Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) extension and set:
+```json
+"better-comments.tags": [
+  {
+    "backgroundColor": "transparent",
+    "bold": false,
+    "color": "#f98d7c",
+    "italic": false,
+    "strikethrough": false,
+    "tag": "!",
+    "underline": false
+  },
+  {
+    "backgroundColor": "transparent",
+    "bold": false,
+    "color": "#ded9b4",
+    "italic": false,
+    "strikethrough": false,
+    "tag": "?",
+    "underline": false
+  },
+  {
+    "backgroundColor": "transparent",
+    "bold": true,
+    "color": "#95a2b8",
+    "italic": false,
+    "strikethrough": false,
+    "tag": "*",
+    "underline": false
+  }
+],
+```
+
+### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
 
 ```json
 "indentRainbow.colors": [
@@ -42,9 +76,7 @@ Install the [indent-rainbow](https://marketplace.visualstudio.com/items?itemName
 "indentRainbow.indicatorStyle": "classic",
 ```
 
-### TODO Highlight
-
-Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) extension and set:
+### Install [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) and set:
 
 ```json
 "todohighlight.defaultStyle": {
@@ -64,9 +96,7 @@ Install the [TODO Highlight](https://marketplace.visualstudio.com/items?itemName
 ],
 ```
 
-### Coverage Gutters
-
-Install the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension and set:
+### Install [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) and set:
 
 ```json
 "coverage-gutters.partialHighlightDark": "#ffeca020",
@@ -77,21 +107,24 @@ Install the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemNa
 > **Note:**
 > To change the gutter colors, edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-2.10.4/app_images`)
 
+---
+
 ## Extras
 
-- Lightbulb is also available for [Firefox!](https://addons.mozilla.org/en-US/firefox/addon/lightbulb-theme/)
+Built-in styling for the following extensions (if installed):
 
-- Lightbulb also automatically styles the following extensions (if installed):
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+- [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Inline Parameters](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
 
-  - [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
-  - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  - [Inline Parameters for VSCode](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
+---
 
 ## Missing colors?
 
-Can't get em all, report missing styles by [creating an issue](https://github.com/ykray/Lightbulb/issues).
+> Report missing styles — [create an issue](https://github.com/ykray/Lightbulb/issues)
 
-Feel free to suggest styling changes by [submitting an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas).
+> Suggest changes — [submit an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas)
 
 ---
 
