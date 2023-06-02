@@ -28,7 +28,9 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```jsonc
 "editor.fontFamily": "JetBrains Mono",
-"editor.fontSize": 13
+"editor.fontLigatures": true,
+"editor.fontSize": 13,
+"editor.fontWeight": 400,
 ```
 
 ### Install [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and set:
