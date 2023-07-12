@@ -71,6 +71,23 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
+### Install [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) and set:
+
+```jsonc
+{
+  "errorLens.fontSize": "1em",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.fontWeight": "bold",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "defaultOutline",
+  "errorLens.gutterIconSize": "80%",
+  "errorLens.margin": "1.5ch",
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.messageTemplate": "$message <-- $source($code)",
+  "errorLens.padding": "0.3ch 0.9ch"
+}
+```
+
 ### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
 
 ```json
