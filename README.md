@@ -43,7 +43,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
     {
       "backgroundColor": "transparent",
       "bold": false,
-      "color": "#f98d7c",
+      "color": "#f88f7f",
       "italic": false,
       "strikethrough": false,
       "tag": "!",
@@ -96,7 +96,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
     "rgba(141, 151, 170, 0.0)",
     "rgba(141, 151, 170, 0.035)"
   ],
-  "indentRainbow.errorColor": "#f98d7c29",
+  "indentRainbow.errorColor": "#f88f7f29",
   "indentRainbow.indicatorStyle": "classic"
 }
 ```
@@ -128,8 +128,8 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 ```json
 {
   "coverage-gutters.partialHighlightDark": "#ffeca020",
-  "coverage-gutters.highlightdark": "#42f1b420",
-  "coverage-gutters.noHighlightDark": "#f98d7c29"
+  "coverage-gutters.highlightdark": "#42f1b413",
+  "coverage-gutters.noHighlightDark": "#f88f7f13"
 }
 ```
 
