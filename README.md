@@ -134,7 +134,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 ```
 
 > **Note:**
-> To change the gutter colors, edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-2.10.4/app_images`)
+> To change the gutter colors, edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`)
 
 ---
 

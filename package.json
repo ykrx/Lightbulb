@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url:": "https://github.com/ykray/Lightbulb"
+    "url:": "https://github.com/ykrx/Lightbulb"
   },
   "bugs": {
-    "url:": "https://github.com/ykray/Lightbulb/issues",
+    "url:": "https://github.com/ykrx/Lightbulb/issues",
     "email": "yulian@yulian.codes"
   },
-  "homepage": "https://github.com/ykray/Lightbulb",
+  "homepage": "https://github.com/ykrx/Lightbulb",
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#121722",
     "theme": "dark"
   },
-  "version": "15.10.0",
+  "version": "16.0.0",
   "engines": {
     "vscode": "^1.72.0"
   },
