@@ -22,7 +22,7 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 Lightbulb is good to go upon install, but here are some recommended customizations (from your end) to make it _really_ pop.
 
-### Install [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) (pair nicely with Lightbulb)
+### Install [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) (pair nicely)
 
 ### Install [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and set:
 
@@ -61,7 +61,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
     {
       "backgroundColor": "transparent",
       "bold": true,
-      "color": "#95a2b8",
+      "color": "#9ca9bf",
       "italic": false,
       "strikethrough": false,
       "tag": "*",
@@ -92,10 +92,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "indentRainbow.colors": [
-    "rgba(141, 151, 170, 0.0)",
-    "rgba(141, 151, 170, 0.035)"
-  ],
+  "indentRainbow.colors": ["33425900", "#3342592a"],
   "indentRainbow.errorColor": "#f88f7f29",
   "indentRainbow.indicatorStyle": "classic"
 }
@@ -115,8 +112,9 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
   },
   "todohighlight.keywords": [
     {
-      "backgroundColor": "#ffcf6f",
-      "fontWeight": "bold",
+      "backgroundColor": "#ffcf6f16",
+      "color": "#ffcf6f",
+      "overviewRulerColor": "#ffcf6f",
       "text": "TODO"
     }
   ]
@@ -127,14 +125,14 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "coverage-gutters.partialHighlightDark": "#ffeca020",
-  "coverage-gutters.highlightdark": "#42f1b413",
-  "coverage-gutters.noHighlightDark": "#f88f7f13"
+  "coverage-gutters.highlightdark": "#42f1b425",
+  "coverage-gutters.noHighlightDark": "#f88f7f25",
+  "coverage-gutters.partialHighlightDark": "#ffeca025"
 }
 ```
 
 > **Note:**
-> To change the gutter colors, edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`)
+> To change the gutter colors (which are SVG images and are not _easily_ themable), open and edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`)
 
 ---
 
