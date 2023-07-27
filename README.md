@@ -88,6 +88,12 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
+> **Note**<br/>
+> To change the gutter icon colors:
+> 1. Open `~.vscode/extensions/usernamehw.errorlens-<version>/img`
+> 2. Edit the `fill` of the corresponding SVGs to the colors above, without alpha
+
+
 ### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
 
 ```json
@@ -131,8 +137,10 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-> **Note:**
-> To change the gutter colors (which are SVG images and are not _easily_ themable), open and edit the `fill` of the corresponding SVGs used by the extension (located at: `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`)
+> **Note**<br/>
+> To change the gutter icon colors:
+> 1. Open `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`
+> 2. Edit the `fill` of the corresponding SVGs to the colors above, without alpha
 
 ---
 
