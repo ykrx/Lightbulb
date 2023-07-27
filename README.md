@@ -75,30 +75,31 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```jsonc
 {
+  "errorLens.borderRadius": "0px",
   "errorLens.fontSize": "1em",
   "errorLens.fontStyleItalic": true,
-  "errorLens.fontWeight": "bold",
+  "errorLens.fontWeight": "500",
+  "errorLens.gutterIconSet": "default",
+  "errorLens.gutterIconSize": "66%",
   "errorLens.gutterIconsEnabled": true,
-  "errorLens.gutterIconSet": "defaultOutline",
-  "errorLens.gutterIconSize": "80%",
   "errorLens.margin": "1.5ch",
   "errorLens.messageBackgroundMode": "message",
-  "errorLens.messageTemplate": "$message <-- $source($code)",
-  "errorLens.padding": "0.3ch 0.9ch"
+  "errorLens.messageTemplate": "$message <$source($code)",
+  "errorLens.padding": "0.034ch 0.6ch"
 }
 ```
 
-> **Note**<br/>
+> **Note** (advanced)<br/>
 > To change the gutter icon colors:
+>
 > 1. Open `~.vscode/extensions/usernamehw.errorlens-<version>/img`
-> 2. Edit the `fill` of the corresponding SVGs to the colors above, without alpha
-
+> 2. Edit the `fill` of the corresponding SVGs, or replace with some other SVG
 
 ### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
 
 ```json
 {
-  "indentRainbow.colors": ["33425900", "#3342592a"],
+  "indentRainbow.colors": ["#33425900", "#3342592a"],
   "indentRainbow.errorColor": "#f88f7f29",
   "indentRainbow.indicatorStyle": "classic"
 }
@@ -137,10 +138,11 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-> **Note**<br/>
+> **Note** (advanced)<br/>
 > To change the gutter icon colors:
+>
 > 1. Open `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`
-> 2. Edit the `fill` of the corresponding SVGs to the colors above, without alpha
+> 2. Edit the `fill` of the corresponding SVGs, or replace with some other SVG
 
 ---
 
