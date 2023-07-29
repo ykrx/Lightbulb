@@ -44,7 +44,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
       "backgroundColor": "transparent",
       "bold": false,
       "color": "#f88f7f",
-      "italic": false,
+      "italic": true,
       "strikethrough": false,
       "tag": "!",
       "underline": false
@@ -52,17 +52,17 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
     {
       "backgroundColor": "transparent",
       "bold": false,
-      "color": "#ded9b4",
-      "italic": false,
+      "color": "#9ca9bf",
+      "italic": true,
       "strikethrough": false,
       "tag": "?",
       "underline": false
     },
     {
       "backgroundColor": "transparent",
-      "bold": true,
-      "color": "#9ca9bf",
-      "italic": false,
+      "bold": false,
+      "color": "#ffcf6f",
+      "italic": true,
       "strikethrough": false,
       "tag": "*",
       "underline": false
