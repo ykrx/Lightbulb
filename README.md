@@ -92,7 +92,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 > **Note** (advanced)<br/>
 > To change the gutter icon colors:
 >
-> 1. Open `~.vscode/extensions/usernamehw.errorlens-<version>/img`
+> 1. Open `~/.vscode/extensions/usernamehw.errorlens-<version>/img`
 > 2. Edit the `fill` of the corresponding SVGs, or replace with some other SVG
 
 #### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
