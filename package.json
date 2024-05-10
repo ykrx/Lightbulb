@@ -20,7 +20,7 @@
     "color": "#121722",
     "theme": "dark"
   },
-  "version": "23.0.0",
+  "version": "26.0.0",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -40,7 +40,7 @@
       {
         "label": "Lightbulb",
         "uiTheme": "vs-dark",
-        "path": "./themes/Lightbulb-color-theme.json"
+        "path": "./themes/Lightbulb.json"
       }
     ]
   }
