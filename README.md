@@ -28,10 +28,10 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```jsonc
 {
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.fontWeight": 400
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": 400
 }
 ```
 
@@ -39,35 +39,35 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "better-comments.tags": [
-    {
-      "backgroundColor": "transparent",
-      "bold": false,
-      "color": "#f88f7f",
-      "italic": true,
-      "strikethrough": false,
-      "tag": "!",
-      "underline": false
-    },
-    {
-      "backgroundColor": "transparent",
-      "bold": false,
-      "color": "#9ca9bf",
-      "italic": true,
-      "strikethrough": false,
-      "tag": "?",
-      "underline": false
-    },
-    {
-      "backgroundColor": "transparent",
-      "bold": false,
-      "color": "#ffcf6f",
-      "italic": true,
-      "strikethrough": false,
-      "tag": "*",
-      "underline": false
-    }
-  ]
+    "better-comments.tags": [
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#f88f7f",
+            "italic": true,
+            "strikethrough": false,
+            "tag": "!",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#9ca9bf",
+            "italic": true,
+            "strikethrough": false,
+            "tag": "?",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#ffcf6f",
+            "italic": true,
+            "strikethrough": false,
+            "tag": "*",
+            "underline": false
+        }
+    ]
 }
 ```
 
@@ -75,17 +75,17 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```jsonc
 {
-  "errorLens.borderRadius": "0px",
-  "errorLens.fontSize": "1em",
-  "errorLens.fontStyleItalic": true,
-  "errorLens.fontWeight": "500",
-  "errorLens.gutterIconSet": "default",
-  "errorLens.gutterIconSize": "66%",
-  "errorLens.gutterIconsEnabled": true,
-  "errorLens.margin": "1.5ch",
-  "errorLens.messageBackgroundMode": "message",
-  "errorLens.messageTemplate": "$message <$source($code)",
-  "errorLens.padding": "0.034ch 0.6ch"
+    "errorLens.borderRadius": "0px",
+    "errorLens.fontSize": "1em",
+    "errorLens.fontStyleItalic": true,
+    "errorLens.fontWeight": "500",
+    "errorLens.gutterIconSet": "default",
+    "errorLens.gutterIconSize": "66%",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.margin": "1.5ch",
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.messageTemplate": "$message <$source($code)",
+    "errorLens.padding": "0.034ch 0.6ch"
 }
 ```
 
@@ -99,9 +99,9 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "indentRainbow.colors": ["#33425900", "#3342592a"],
-  "indentRainbow.errorColor": "#f88f7f29",
-  "indentRainbow.indicatorStyle": "classic"
+    "indentRainbow.colors": ["#33425900", "#3342592a"],
+    "indentRainbow.errorColor": "#f88f7f29",
+    "indentRainbow.indicatorStyle": "classic"
 }
 ```
 
@@ -109,23 +109,23 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "todohighlight.enableDiagnostics": true,
-  "todohighlight.defaultStyle": {
-    "backgroundColor": "transparent",
-    "color": "#121722",
-    "fontStyle": "",
-    "fontWeight": "normal",
-    "isWholeLine": true,
-    "overviewRulerColor": "#ffcf6f"
-  },
- "todohighlight.keywords": [
-    {
-      "backgroundColor": "#dcd8bb12",
-      "color": "#ffcf6f",
-      "overviewRulerColor": "#ffcf6f",
-      "text": "TODO"
-    }
-  ],
+    "todohighlight.enableDiagnostics": true,
+    "todohighlight.defaultStyle": {
+        "backgroundColor": "transparent",
+        "color": "#121722",
+        "fontStyle": "",
+        "fontWeight": "normal",
+        "isWholeLine": true,
+        "overviewRulerColor": "#ffcf6f"
+    },
+    "todohighlight.keywords": [
+        {
+            "backgroundColor": "#dcd8bb12",
+            "color": "#ffcf6f",
+            "overviewRulerColor": "#ffcf6f",
+            "text": "TODO"
+        }
+    ]
 }
 ```
 
@@ -133,9 +133,9 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 ```json
 {
-  "coverage-gutters.highlightdark": "#42f1b425",
-  "coverage-gutters.noHighlightDark": "#f88f7f25",
-  "coverage-gutters.partialHighlightDark": "#dcd8bb25"
+    "coverage-gutters.highlightdark": "#42f1b425",
+    "coverage-gutters.noHighlightDark": "#f88f7f25",
+    "coverage-gutters.partialHighlightDark": "#dcd8bb25"
 }
 ```
 
@@ -151,10 +151,10 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 
 Built-in support for semantic highlighting, as well as styling for the following extensions:
 
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Inline Parameters](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
+-   [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+-   [Numbered Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.numbered-bookmarks)
+-   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+-   [Inline Parameters](https://marketplace.visualstudio.com/items?itemName=liamhammett.inline-parameters)
 
 ---
 
