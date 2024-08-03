@@ -259,7 +259,7 @@
         "gitDecoration.modifiedResourceForeground": "#a9b3c7",
         "gitDecoration.renamedResourceForeground": "#73d0ff",
         "gitDecoration.stageDeletedResourceForeground": "#f88f7f",
-        "gitDecoration.stageModifiedResourceForeground": "#ffffff",
+        "gitDecoration.stageModifiedResourceForeground": "#dde8f1",
         "gitDecoration.submoduleResourceForeground": "#dfbfffb3",
         "gitDecoration.untrackedResourceForeground": "#536078",
         "gitlens.trailingLineForegroundColor": "#3e475c",
@@ -379,6 +379,11 @@
         "remoteHub.decorations.incomingModifiedForegroundColor": "#ffd173",
         "remoteHub.decorations.modifiedForegroundColor": "#ffd173",
         "remoteHub.decorations.possibleConflictForegroundColor": "#f88f7f",
+        "scm.historyGraph.green": "#7c89a150",
+        "scm.historyGraph.historyItemGroupBase": "#7c89a1ce",
+        "scm.historyGraph.historyItemGroupLocal": "#ffd173",
+        "scm.historyGraph.red": "#7c89a1ce",
+        "scm.historyGraph.yellow": "#7c89a164",
         "scrollbar.shadow": "#171b2400",
         "scrollbarSlider.activeBackground": "#72809b20",
         "scrollbarSlider.background": "#72809b20",
@@ -558,6 +563,7 @@
         //"debugIcon.breakpointUnverifiedForeground": "#848484",
         //"debugIcon.disconnectForeground": "#f48771",
         //"debugIcon.stepBackForeground": "#75beff",
+        //"debugTokenExpression.type": "#4a90e2",
         //"diffEditor.move.border": "#8b8b8b9c",
         //"diffEditor.moveActive.border": "#ffa500",
         //"diffEditor.unchangedCodeBackground": "#74747429",
@@ -565,9 +571,11 @@
         //"diffEditor.unchangedRegionForeground": "#7d8ba7",
         //"diffEditor.unchangedRegionShadow": "#000000",
         //"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
+        //"editor.foldPlaceholderForeground": "#808080",
         //"editor.inlineValuesBackground": "#ffc80033",
         //"editor.inlineValuesForeground": "#ffffff80",
         //"editor.lineHighlightBorder": "#282828",
+        //"editor.placeholder.foreground": "#5c6b7e",
         //"editor.snippetFinalTabstopHighlightBorder": "#525252",
         //"editor.stackFrameHighlightBackground": "#ffff0033",
         //"editor.symbolHighlightBackground": "#ffd17330",
@@ -702,6 +710,7 @@
         //"gitlens.graphMinimapMarkerHeadColor": "#05e617",
         //"gitlens.graphMinimapMarkerHighlightsColor": "#fbff0a",
         //"gitlens.graphMinimapMarkerLocalBranchesColor": "#3087cf",
+        //"gitlens.graphMinimapMarkerPullRequestsColor": "#c76801",
         //"gitlens.graphMinimapMarkerRemoteBranchesColor": "#2b5e88",
         //"gitlens.graphMinimapMarkerStashesColor": "#b34db3",
         //"gitlens.graphMinimapMarkerTagsColor": "#6b562e",
@@ -709,6 +718,7 @@
         //"gitlens.graphScrollMarkerHeadColor": "#05e617",
         //"gitlens.graphScrollMarkerHighlightsColor": "#fbff0a",
         //"gitlens.graphScrollMarkerLocalBranchesColor": "#3087cf",
+        //"gitlens.graphScrollMarkerPullRequestsColor": "#c76801",
         //"gitlens.graphScrollMarkerRemoteBranchesColor": "#2b5e88",
         //"gitlens.graphScrollMarkerStashesColor": "#b34db3",
         //"gitlens.graphScrollMarkerTagsColor": "#6b562e",
@@ -733,7 +743,7 @@
         //"gitlens.unpulledChangesIconColor": "#b15e35",
         //"inlineChat.background": "#1d2331",
         //"inlineChat.border": "#ffd173",
-        //"inlineChat.regionHighlight": "#2b3244",
+        //"inlineChat.foreground": "#64738f",
         //"inlineChat.shadow": "#ff000000",
         //"inlineChatDiff.inserted": "#7bdcba2b",
         //"inlineChatDiff.removed": "#f88f7f38",
@@ -809,6 +819,11 @@
         //"quickInputList.focusBackground": "#dcd8bb11",
         //"quickInputList.focusForeground": "#ffd173",
         //"quickInputTitle.background": "#ffffff1b",
+        //"radio.activeBackground": "#dcd8bb00",
+        //"radio.activeBorder": "#dcd8bb00",
+        //"radio.activeForeground": "#ffd173",
+        //"radio.inactiveBorder": "#ffd17333",
+        //"radio.inactiveHoverBackground": "#434e6300",
         //"remoteHub.decorations.addedForegroundColor": "#81b88b",
         //"remoteHub.decorations.conflictForegroundColor": "#e4676b",
         //"remoteHub.decorations.deletedForegroundColor": "#c74e39",
@@ -819,6 +834,8 @@
         //"remoteHub.decorations.submoduleForegroundColor": "#8db9e2",
         //"remoteHub.decorations.workspaceRepositoriesView.hasUncommittedChangesForegroundColor": "#e2c08d",
         //"sash.hoverBorder": "#ffd173",
+        //"scm.historyGraph.historyItemGroupHoverLabelForeground": "#ffd173",
+        //"scm.historyGraph.historyItemGroupRemote": "#b180d7",
         //"scm.historyItemAdditionsForeground": "#7bdcba",
         //"scm.historyItemDeletionsForeground": "#f27983b3",
         //"scm.historyItemSelectedStatisticsBorder": "#ffd17333",
@@ -886,7 +903,9 @@
         //"terminal.findMatchBackground": "#12172200",
         //"terminal.findMatchHighlightBackground": "#ffd17330",
         //"terminal.hoverHighlightBackground": "#2b324480",
+        //"terminal.initialHintForeground": "#ffffff56",
         //"terminal.tab.activeBorder": "#1d2331",
+        //"terminalOverviewRuler.border": "#5c6b7e00",
         //"terminalOverviewRuler.cursorForeground": "#a0a0a0cc",
         //"terminalOverviewRuler.findMatchForeground": "#ffd073d3",
         //"terminalStickyScrollHover.background": "#2a2d2e",
@@ -965,6 +984,8 @@
         //"panelSectionHeader.foreground": null,
         //"panelStickyScroll.border": null,
         //"quickInput.list.focusBackground": null,
+        //"radio.inactiveBackground": null,
+        //"radio.inactiveForeground": null,
         //"sideBarStickyScroll.border": null,
         //"tab.hoverBorder": null,
         //"tab.hoverForeground": null,
@@ -974,6 +995,7 @@
         //"terminal.findMatchHighlightBorder": null,
         //"terminalCursor.background": null,
         //"terminalStickyScroll.background": null,
+        //"terminalStickyScroll.border": null,
         //"testing.message.info.lineBackground": null,
         //"toolbar.hoverOutline": null,
         //"window.inactiveBorder": null
@@ -15694,6 +15716,22 @@
             "scope": "keyword.other.dotenv",
             "settings": {
                 "foreground": "#FF000005"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.read.github-actions-expression"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "keyword.other.doctype.xml"
+            ],
+            "settings": {
+                "foreground": "#DFBFFF"
             }
         }
     ]
