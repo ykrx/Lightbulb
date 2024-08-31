@@ -160,10 +160,10 @@ Built-in support for semantic highlighting, as well as styling for the following
 
 ## Missing colors?
 
-> Report missing styles — [create an issue](https://github.com/ykray/Lightbulb/issues)
+Report missing styles — [create an issue](https://github.com/ykray/Lightbulb/issues)
 
-> Suggest changes — [submit an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas)
+Suggest changes — [submit an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas)
 
 ---
 
-Inspired by _Ayu Mirage_ and _Field Lights_
+> Inspired by _Ayu Mirage_ and _Field Lights_
