@@ -15,12 +15,12 @@
     "email": "yulian@yulian.codes"
   },
   "homepage": "https://github.com/ykrx/Lightbulb",
-  "icon": "images/icon.png",
+  "icon": "images/icon.gif",
   "galleryBanner": {
     "color": "#121722",
     "theme": "dark"
   },
-  "version": "28.1.0",
+  "version": "28.2.0",
   "engines": {
     "vscode": "^1.72.0"
   },
