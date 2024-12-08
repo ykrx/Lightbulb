@@ -22,9 +22,9 @@ This is a comprehensive theme designed over many years of experimentation with m
 
 Lightbulb is good to go upon install, but here are some recommended customizations (from your end) to make it _really_ pop.
 
-#### Install [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) (pair nicely)
+### Install [Helium Icons](https://marketplace.visualstudio.com/items?itemName=helgardrichard.helium-icon-theme) (pair nicely)
 
-#### Install [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and set:
+### Install [JetBrains Mono](https://www.jetbrains.com/lp/mono/) and set:
 
 ```jsonc
 {
@@ -35,7 +35,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-#### Install [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and set:
+### Install [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) and set:
 
 ```json
 {
@@ -71,7 +71,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-#### Install [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) and set:
+### Install [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) and set:
 
 ```jsonc
 {
@@ -89,13 +89,13 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-> **Note** (advanced)<br/>
+> [!TIP]
 > To change the gutter icon colors:
 >
 > 1. Open `~/.vscode/extensions/usernamehw.errorlens-<version>/img`
 > 2. Edit the `fill` of the corresponding SVGs, or replace with some other SVG
 
-#### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
+### Install [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) and set:
 
 ```json
 {
@@ -105,7 +105,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-#### Install [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) and set:
+### Install [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) and set:
 
 ```json
 {
@@ -129,7 +129,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-#### Install [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) and set:
+### Install [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) and set:
 
 ```json
 {
@@ -139,7 +139,7 @@ Lightbulb is good to go upon install, but here are some recommended customizatio
 }
 ```
 
-> **Note** (advanced)<br/>
+> [!TIP]
 > To change the gutter icon colors:
 >
 > 1. Open `~/.vscode/extensions/ryanluker.vscode-coverage-gutters-<version>/app_images`
@@ -160,9 +160,8 @@ Built-in support for semantic highlighting, as well as styling for the following
 
 ## Missing colors?
 
-Report missing styles — [create an issue](https://github.com/ykray/Lightbulb/issues)
-
-Suggest changes — [submit an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas)
+- Report missing styles by [creating an issue](https://github.com/ykray/Lightbulb/issues)
+- Suggest changes by [submitting an idea](https://github.com/ykray/Lightbulb/discussions/categories/ideas)
 
 ---
 
